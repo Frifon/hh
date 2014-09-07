@@ -1,3 +1,9 @@
+"""
+    The complexity of this algorithm is O(N * K).
+    This algorithm uses dynamic programming.
+"""
+
+
 def main():
     def solve(n, k):
         dp = [[0 for i in range(k + 1)] for j in range(n + 1)]
